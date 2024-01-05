@@ -1,3 +1,5 @@
+<title>AviUtl Bezier</title>
+
 <script lang="ts">
 
   import DownArrow from "$lib/svg/DownArrow.svelte";

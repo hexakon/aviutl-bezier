@@ -1,6 +1,8 @@
 # aviutl-bezier
 
-translates CSS bezier functions to the format used by AviUtl, a ridiculously lightweight japanese video editor dating as far back as the 90s.
+translates CSS bezier functions to the format used by [AviUtl](https://www.videohelp.com/software/AviUtl), a ridiculously lightweight and gratis japanese video editor with history dating as far back as the 90s. more specifically, it is used by the BezierTrackT plugin included in the 1.14 Extra Pack.
+
+use the tool at [bezier.pages.dev](https://bezier.pages.dev).
 
 a very simple first sveltekit app to learn the ropes of several essential skills:
 
