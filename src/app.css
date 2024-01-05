@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-slate-100 font-custom;
+  }
+  a, input[type=button] {
+    @apply text-teal-600 hover:text-white hover:bg-teal-600;
+  }
+}
+
+@layer base {
+  html {
+    font-family: "Barlow", sans-serif;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "presets": [
+    {
+      "name": "easeInSine",
+      "value": "{-76,100,-22,100}"
+    },
+    {
+      "name": "easeOutSine",
+      "value": "{22,-100,76,-100}"
+    },
+    {
+      "name": "easeInOutSine",
+      "value": "{-26,100,26,-100}"
+    },
+    {
+      "name": "easeInBack",
+      "value": "{-28,100,32,212}"
+    },
+    {
+      "name": "easeOutBack",
+      "value": "{-32,-212,28,-100}"
+    },
+    {
+      "name": "easeInOutBack",
+      "value": "{36,220,-36,-220}"
+    }
+  ]
+}
