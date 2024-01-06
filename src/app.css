@@ -6,10 +6,19 @@
 
 @layer components {
   body {
-    @apply bg-slate-100 font-custom;
+    @apply bg-slate-100 dark:bg-slate-700 dark:text-white transition-colors;
   }
-  a, input[type=button] {
+  a, button {
     @apply text-teal-600 hover:text-white hover:bg-teal-600;
+  }
+  input, li {
+    @apply dark:bg-slate-600;
+  }
+  h1, p {
+    @apply text-center;
+  }
+  .pseudobutton {
+    @apply cursor-pointer select-none;
   }
 }
 
