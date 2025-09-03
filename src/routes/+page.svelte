@@ -3,6 +3,16 @@
   <script lang="ts">
     document.documentElement.classList.add("dark", localStorage.theme === "dark" || !localStorage.theme && window.matchMedia("(prefers-color-scheme: dark)").matches)
   </script>
+	
+	<!-- Anti-flickering script -->
+	<script>
+	var  timeout = 3000; // Timeout value to remove the flicker (in milliseconds)
+	!function(h,i,d,e){var  t,n=h.createElement("style");n.id=e,n.innerHTML="body{opacity:0}",h.head.appendChild(n),t=d,i.rmfk=function(){var  t=h.getElementById(e);t&&t.parentNode.removeChild(t)},setTimeout(i.rmfk,t)}(document,window,timeout,"abhide");
+	</script>
+	
+	<!-- Mida A/B Testing Script -->
+	<script type="text/javascript" async src="https://cdn.mida.so/js/optimize.js?key=34MV9Wnqd0m0LYXrGNLpJw"></script>
+
 </svelte:head>
 
 <script lang="ts">
